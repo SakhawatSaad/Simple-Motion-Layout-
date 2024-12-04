@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:motionDebug="SHOW_PATH"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:src="@drawable/shad"
+        style="ShapeAppearanceOverlay.App.CornerSize10Percent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView2"
+        android:src="@drawable/shad2"
+        style="ShapeAppearanceOverlay.App.CornerSize10Percent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView3"
+        style="ShapeAppearanceOverlay.App.CornerSize10Percent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        android:src="@drawable/shad3"
+
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView4"
+        style="ShapeAppearanceOverlay.App.CornerSize10Percent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        android:src="@drawable/shad"
+
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
